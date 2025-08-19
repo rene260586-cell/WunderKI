@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WunderKI v42</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: linear-gradient(135deg, #4b6cb7, #182848); color: white; padding: 2rem; text-align: center; }
+    main { padding: 2rem; }
+    section { margin-bottom: 4rem; }
+    button { background: #4b6cb7; color: white; border: none; padding: 1rem 2rem; font-size: 1.2rem; border-radius: 8px; cursor: pointer; }
+    button:hover { background: #3551a1; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Willkommen bei WunderKI</h1>
+    <p>Alles über Künstliche Intelligenz – Schritt für Schritt erklärt</p>
+    <button onclick="goStart()">Starte jetzt</button>
+  </header>
+  <main>
+    <section id="start">
+      <h2>🚀 Was ist WunderKI?</h2>
+      <p>WunderKI ist deine Lernplattform für KI. Egal ob Einsteiger oder Profi – hier findest du Projekte, Anleitungen, Videos und FAQs.</p>
+    </section>
+  </main>
+
+  <script>
+    function goStart() {
+      document.getElementById('start').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
